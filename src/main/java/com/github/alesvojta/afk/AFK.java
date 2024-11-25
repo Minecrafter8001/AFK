@@ -99,7 +99,7 @@ public class AFK extends JavaPlugin {
          afkMessage = this.config.toAfk();
          fallbackMessage = playerName + " is now AFK" + reason;
          if(playerName.length() > 14) {
-            name = playerName.substring(0, 13);
+            name = playerName;
             Bukkit.getPlayer(playerName).setPlayerListName(this.config.playerListColor() + name);
          } else {
             Bukkit.getPlayer(playerName).setPlayerListName(this.config.playerListColor() + playerName);
