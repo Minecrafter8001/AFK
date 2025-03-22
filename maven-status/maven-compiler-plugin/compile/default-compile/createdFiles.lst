@@ -1,0 +1,4 @@
+com\github\alesvojta\afk\AFK.class
+com\github\alesvojta\afk\Events.class
+com\github\alesvojta\afk\Config.class
+com\github\alesvojta\afk\IdleTimer.class
